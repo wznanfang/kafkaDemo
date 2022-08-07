@@ -1,0 +1,10 @@
+server:
+  port: 8999
+  contextPath : /kafka
+spring:
+  application:
+    name: kafka
+  kafka:
+    bootstrapServers: 127.0.0.1:9092
+    consumer:
+      groupId: myGroup
